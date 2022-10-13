@@ -1,4 +1,6 @@
-﻿using MissionPlanner.Utilities;
+﻿using MissionPlanner;
+using MissionPlanner.Plugin;
+using MissionPlanner.Utilities;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,9 +10,9 @@ using MissionPlanner.Controls.PreFlight;
 using MissionPlanner.Controls;
 using System.Linq;
 
-namespace MissionPlanner.Skeleton_rename_me
+namespace Skeleton_rename_me
 {
-    public class Skeleton_rename_mePlugin : MissionPlanner.Plugin.Plugin
+    public class Skeleton_rename_mePlugin : Plugin
     {
         public override string Name
         {
@@ -45,7 +47,6 @@ namespace MissionPlanner.Skeleton_rename_me
         public override bool Loop()
 		//Loop is called in regular intervalls (set by loopratehz)
         {
-
             return true;	//Return value is not used
         }
 
