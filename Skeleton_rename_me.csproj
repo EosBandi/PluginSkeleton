@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{DDD2FEA8-801E-463B-8913-9CCCDA2D9429}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>MissionPlanner.Skeleton_rename_me</RootNamespace>
-    <AssemblyName>MissionPlanner.Skeleton_rename_me</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <RootNamespace>Skeleton_rename_me</RootNamespace>
+    <AssemblyName>Skeleton_rename_me</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
