@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>MissionPlanner.Skeleton_rename_me</RootNamespace>
     <AssemblyName>MissionPlanner.Skeleton_rename_me</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
