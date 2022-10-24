@@ -1,6 +1,6 @@
 # Mission Planner Plugin Skeleton
 
-A skeleton class library to create a Mission Planner plugin.
+A skeleton class library to create a <a href="https://github.com/ArduPilot/MissionPlanner/">Mission Planner</a> plugin.
 
 ## Table of contents
  1. [Table of contents](#table-of-contents)
