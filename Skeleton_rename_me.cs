@@ -12,7 +12,7 @@ using System.Linq;
 
 namespace Skeleton_rename_me
 {
-    public class Skeleton_rename_mePlugin : Plugin
+    public class Skeleton_rename_me : Plugin
     {
         public override string Name
         {

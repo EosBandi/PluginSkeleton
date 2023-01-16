@@ -3,10 +3,9 @@
 A skeleton class library to create a <a href="https://github.com/ArduPilot/MissionPlanner/">Mission Planner</a> plugin.
 
 ## Table of contents
- 1. [Table of contents](#table-of-contents)
- 2. [How to add to Visual Studio](#how-to-add-to-visual-studio)
- 3. [How to build](#how-to-build)
- 4. [How to develop](#how-to-develop)
+ 1. [How to add to Visual Studio](#how-to-add-to-visual-studio)
+ 2. [How to build](#how-to-build)
+ 3. [How to develop](#how-to-develop)
     1. [string Name, Version, Author](#string-name-version-author)
     2. [bool Init()](#bool-init)
     3. [bool Loaded()](#bool-loaded)
@@ -73,11 +72,11 @@ These show up in the the Plugin Manager window (**Ctrl+P**)
 
 This function runs when the plugin DLL is loaded by the plugin loader during the startup process.
 
-Here is where the variable `loopratehz` is set by default. It dictates how often (per second) the function `Loop` will run.
+Here is where the variable `loopratehz` is set by default. It dictates how often (per second) the `Loop()` function will run.
 
 **The maximum value of `loopratehz` is 100. Setting a value higher will not make it run faster than 100Hz!**
 
-Some setup logic may be placed here, but since the UI isn't set up yet, nothing can be accessed or added.
+Some setup logic may be placed here, but since the UI isn't set up yet at this point, nothing can be accessed or added.
 
 ### bool Loaded()
 
@@ -99,7 +98,7 @@ To access UI or data elements from the main thread (where the main application i
 
 This function is called when the plugin is unloaded.
 
-**This migh not be when the main application is closing, closing filestreams and such might result in exceptions being thrown!**
+**This might not be the exact time when the main application is closing, closing filestreams and such might result in exceptions being thrown!**
 
 ### Access main thread
 
