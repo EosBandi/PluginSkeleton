@@ -16,18 +16,28 @@ A skeleton class library to create a <a href="https://github.com/ArduPilot/Missi
 
 ## How to add to Visual Studio
 
-1. Clone this repo to `<Mission Planner local repo folder>\Plugins\`
-   - Example result URL`: `C:\Users\<user>\Documents\GitHub\MissionPlanner\Plugins\PluginSkeleton\`
-2. Add `Skeleton_rename_me.csproj` to `Plugins` folder in Visual Studio
+1. Create a new folder for your plugin in `<Mission Planner local repo folder>\Plugins\`  
+    Example result URL: `C:\Users\<username>\Documents\GitHub\MissionPlanner\Plugins\MyPlugin\`
+
+2. Place these 4 essential files into your new plugin folder:
+   - App.config
+   - packages.config
+   - Skeleton_rename_me.cs
+   - Skeleton_rename_me.csproj
+
+(Or, instead of step 1 and 2, **you can clone this repo into the `Plugins/` folder directly**)
+
+3. Add `Skeleton_rename_me.csproj` to the `Plugins` folder in Visual Studio
    1. Right click on `Plugins` folder in the `Solution Explorer`
    2. Add
    3. Existing Item...
    4. Find and select `Skeleton_rename_me.csproj`
-3. Rename everything
+   
+4. Rename everything
    - `Project` file in the Plugins folder in the Solution Explorer
-   - `.cs` file in the project
-   - `Namespace` inside .cs file
-   - `class` inside .cs file
+   - `Skeleton_rename_me.cs` file in the project
+   - `Skeleton_rename_me namespace` inside the (former) `Skeleton_rename_me.cs` file
+   - `Skeleton_rename_me class` inside the (former) `Skeleton_rename_me.cs` file
 
     Right click on the project in the Solution Explorer, select `Properties`, go to the `Application` tab
    - Value under `Assembly name`
