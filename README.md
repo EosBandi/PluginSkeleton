@@ -29,7 +29,7 @@ A skeleton class library to create a <a href="https://github.com/ArduPilot/Missi
 3. Add `Skeleton_rename_me.csproj` to the `Plugins` folder in Visual Studio
    1. Right click on `Plugins` folder in the `Solution Explorer`
    2. Add
-   3. Existing Item...
+   3. Existing Project...
    4. Find and select `Skeleton_rename_me.csproj`
    
 4. Rename everything
